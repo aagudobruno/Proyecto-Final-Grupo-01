@@ -298,6 +298,8 @@ while (opcion!=3):
         print_mapa_p1_niebla()
         print('\n')
     if (opcion==2):
+        vidas1=9
+        vidas2=9
         colocar_barcos(1)
         colocar_barcos(2)
         while (vidas1!=0 and vidas2!=0):
